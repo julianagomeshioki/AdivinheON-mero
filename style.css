@@ -6,12 +6,12 @@
 }
 
 body {
-    display: flex; /* Adiciona flexbox para centralização */
+    display: flex; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: var(--color-blue);
-    margin: 0; /* Remove a margem padrão */
+    margin: 0; 
 }
 
 .content {
@@ -27,10 +27,10 @@ body {
 }
 
 .content input {
-    background: transparent; /* Torna o fundo transparente */
+    background: transparent; 
     border: none;
     outline: none;
-    color: var(--color-white); /* Cor do texto */
+    color: var(--color-white);
     font-size: 1rem;
     padding: 0.4rem;
     border-bottom: 1px solid var(--color-white);
@@ -38,7 +38,7 @@ body {
 }
 
 .content input::placeholder {
-    color: rgba(255, 255, 255, 0.7); /* Cor do placeholder mais clara */
+    color: rgba(255, 255, 255, 0.7); 
 }
 
 .content input:focus {
